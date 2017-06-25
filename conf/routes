@@ -1,0 +1,4 @@
+GET         /hello          controllers.HelloWorldController.helloWorld()
+GET         /hello/:name    controllers.HelloWorldController.helloYou(name: String)
+GET         /error          controllers.HelloWorldController.error()
+GET         /metrics        com.github.stijndehaes.playprometheusfilters.controllers.PrometheusController.getMetrics
