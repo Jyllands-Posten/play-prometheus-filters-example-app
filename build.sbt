@@ -10,5 +10,5 @@ lazy val root = (project in file("."))
 
 
 libraryDependencies ++= Seq(
-  "com.github.stijndehaes"    %% "play-prometheus-filters"  % "0.1.0"
+  "com.github.stijndehaes"    %% "play-prometheus-filters"  % "0.2.0"
 )
