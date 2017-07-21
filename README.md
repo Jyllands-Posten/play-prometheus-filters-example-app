@@ -29,5 +29,5 @@ curl localhost:9000/metrics
 The following filters are enabled:
 
 * StatusCounterFilter
-* RouteActionMethodLatencyFilter
+* StatusAndRouteLatencyFilter
 
