@@ -6,7 +6,7 @@ This is an example play application with three routes:
 * /hello/:name
 * /error
 
-These routes are monitored using the [play prometheus filters](https://github.com/stijndehaes/play-prometheus-filters).
+These routes are monitored using the [play prometheus filters](https://github.com/Jyllands-Posten/play-prometheus-filters).
 
 You start the application with:
 
