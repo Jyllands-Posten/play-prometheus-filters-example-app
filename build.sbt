@@ -11,7 +11,7 @@ lazy val root = (project in file("."))
 
 libraryDependencies ++= Seq(
   guice,
-  "io.github.jyllands-posten" %% "play-prometheus-filters" % "0.6.0-SNAPSHOT"
+  "io.github.jyllands-posten" %% "play-prometheus-filters" % "0.6.0"
 )
 
 resolvers ++= Seq(
